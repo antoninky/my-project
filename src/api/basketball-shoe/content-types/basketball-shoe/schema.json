@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "basketball_shoes",
+  "info": {
+    "singularName": "basketball-shoe",
+    "pluralName": "basketball-shoes",
+    "displayName": "Basketball Shoes",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Model": {
+      "type": "string"
+    },
+    "Pictures": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ReleaseDate": {
+      "type": "date"
+    },
+    "Price": {
+      "type": "integer"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Brand": {
+      "type": "string"
+    }
+  }
+}
